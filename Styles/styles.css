@@ -1,0 +1,64 @@
+body{
+    font-family: 'Teko', sans-serif !important;
+    background-color: #87e2c0;
+    /* background-image: linear-gradient(19deg, #3EECAC 0%, #4db0e4 100%); */
+    /* background-repeat:round; */
+    /* background-size: cover; 
+    Color ytipo de letras para la pagina
+    */
+    }
+
+h1{
+   text-align: center;
+   margin-top: 4% !important;
+   font-family: 'Creepster', cursive !important;
+   font-size: 5rem !important;
+   /* Titulo central tipo de letra diferente */
+}
+
+  .col-3{
+    margin-top: 5% !important;
+  }
+  button {
+    background: var(--bg);
+    border-radius: 100px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.9rem;
+    outline: none;
+    padding: 2rem 4rem;
+    text-align: center;
+    transition: opacity 0.4s ease-in-out;
+    width: 30% !important;
+    height: 54% !important;
+    font-size: 117% !important;
+    margin-top: 8% !important;
+    place-items: center;
+    /* Estilo de los botones */
+  }
+
+  #colorsPaleta{
+    width: 80%;
+    margin-left: 10%;
+    /* Estilo del div que mostrara las paletas */
+  }
+  .colorHex{
+    color: rgb(255 247 247);
+    background-color: rgb(173 179 179 / 13%);
+    padding: 3% !important;
+    /* Clase donde se mostrara el "nombre" del color */
+  }
+  .paletaitem{
+    padding: 3% !important;
+    margin-top: 1% !important;
+    border-radius: 30px 0 30px 30px;
+    position: sticky;
+    /* estilos de cada div de color */
+  }
+
+  .paletaitem:hover{
+    transform: translateY(-5%);
+    /* Estilo hover para el color */
+
+  }
